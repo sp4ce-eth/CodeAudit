@@ -1,9 +1,6 @@
-
-
-<html>
-    <head>
+<html><head>
         <title>Nintex Forms for Office 365</title>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <script type="text/javascript">
             (function () {
@@ -253,8 +250,8 @@
 
         </script>
     </head>
-    <body style="margin: 0px; padding: 0px;">
-        <script type='text/javascript'>
+    <body style="margin: 0px; padding: 0px; overflow: auto;">
+        <script type="text/javascript">
                 var spAppIFrameSenderInfo = new Array(1);
                 var SPAppIFramePostMsgHandler = function(e)
                 {
@@ -370,15 +367,15 @@
                 else if (typeof window.attachEvent != 'undefined')
                 {
                     window.attachEvent('onmessage', SPAppIFramePostMsgHandler);
-                }spAppIFrameSenderInfo[0] = new Array("9AB8C48A0","SPAppIFrame1","","False","False","");
-</script><iframe id="SPAppIFrame1" frameborder="0"></iframe>
-    </body>
-</html>
-<script type="text/javascript" nonce="f8f234b9-fa76-4180-a8c6-13f384e06e40">
+                }spAppIFrameSenderInfo[0] = new Array("8EF4268D0","SPAppIFrame1","","False","False","");
+</script><iframe id="SPAppIFrame1" frameborder="0" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *" src="_layouts/15/appredirect.aspx?client_id=73d49b7f-c0a4-4891-b2bb-65f7f7142c79&amp;redirect_uri=https%3A%2F%2Fformso365.nintex.com%2FPages%2FFormsPart.aspx%3FSPAppWebUrl%3Dhttps%3A%2F%2Fgh1879-6436aecc5c5b3b.sharepoint.com%2Fsites%2FULC%2FFormsApp%26SPHostUrl%3Dhttps%3A%2F%2Fgh1879.sharepoint.com%2Fsites%2FULC%26remoteAppUrl%3Dhttps%3A%2F%2Fformso365.nintex.com%26ctype%3D0x0100CC2664F36A0B4041B1C31B25272FCD9A%26wtg%3D%2FNintexFormXml%2F4245d2df0525d784a8fc3e00ca059bfe_93b7264b-67af-474e-b7c1-9485bcf98f96%2F%26mode%3D2%26List%3D93b7264b-67af-474e-b7c1-9485bcf98f96%26ID%3D1395%26Source%3Dhttps%3A%2F%2Fgh1879.sharepoint.com%2Fsites%2FULC%2FLists%2FAustritteSE%2FAllItems.aspx%26ContentTypeId%3D0x0100CC2664F36A0B4041B1C31B25272FCD9A%26RootFolder%3D%2Fsites%2FULC%2FLists%2FAustritteSE" style="border: 0px; width: 100%; height: 100%; position: absolute; inset: 0px;"></iframe>
+    
+
+<script type="text/javascript" nonce="27df5444-6cd6-4335-87ee-0bad8ca038ef">
 	var g_duration = 60;
-var g_iisLatency = 0;
-var g_cpuDuration = 34;
-var g_queryCount = 5;
-var g_queryDuration = 10;
+var g_iisLatency = 1;
+var g_cpuDuration = 40;
+var g_queryCount = 7;
+var g_queryDuration = 16;
 var g_requireJSDone = new Date().getTime();
-</script>
+</script></body></html>
